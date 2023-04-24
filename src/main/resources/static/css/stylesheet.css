@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: snow;
+}
+
+h1 {
+    color: #A8C4A8;
+    font-family: arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+form {
+    background: ghostwhite;
+    display: inline-block;
+    border: 15px solid #f1f1f1;
+    border-width:5px;
+    border-radius: 18px;
+    width: 280px;
+}
+
+input, form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#username-field {
+    border-radius: 10px;
+    border: 2px solid #A8C4A8;
+    padding: 8px;
+    width: 120px;
+    height: 10px;
+}
+
+#password-field {
+    border-radius: 10px;
+    border: 2px solid #A8C4A8;
+    padding: 8px;
+    width: 120px;
+    height: 10px;
+}
+
+input[type=submit], [type=button] {
+    padding:5px 15px;
+    background:##016ABC;
+    border:0 none;
+    border-radius: 20px;
+    text-shadow: none;
+}
